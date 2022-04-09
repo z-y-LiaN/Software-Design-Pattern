@@ -1,4 +1,5 @@
 package Template;
+
 //这是一个模板方法 的 模板
 public abstract class AbstractClass {
     //模板方法：
@@ -19,6 +20,6 @@ public abstract class AbstractClass {
         System.out.println("Concrete Operation");
     }
 
-    //钩子，具体方法，什么都不做
+    //钩子，具体方法，什么都不做，或者写个默认的实现
     void hook(){}
 }
