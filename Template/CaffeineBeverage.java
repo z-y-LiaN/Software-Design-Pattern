@@ -1,7 +1,5 @@
 package Template;
 
-import javafx.scene.layout.BorderWidths;
-
 public abstract class CaffeineBeverage{
     //prepareRecipe()就是一个模板方法
     //
