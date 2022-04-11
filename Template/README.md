@@ -1,4 +1,4 @@
-复习：先看AbstracrClass.java了解模板的大致框架，然后再看实现的具体代码
+先看AbstracrClass.java了解模板的大致框架，然后再看实现的具体代码
 
 1、模板方法模式：
 - 模板方法模式（Template Method Pattern）是一种结构型设计模式。

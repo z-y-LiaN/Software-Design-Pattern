@@ -1,0 +1,13 @@
+- Duck.java
+  - 抽象的鸭子类，原本fly和quack会因为鸭子的不同而变化，现在将这两个行为**抽离**出来
+  - 抽离出成为两个接口：
+    - FlyBehavior.java和QuackBehavior.java
+  - 当前的Duck类中要持有上面这两个接口的 **实例变量**（引用）
+  - 当一个Duck需要fly的时候，就委托给这两个接口
+    - 所以Duck类中有两个实现委托的方法
+      - performFly()、performQuack()
+
+-  FlyNoWay.java、FlyRocketPowered.java、FlyWithWings.java
+   -  它们是实现FlyBehavior接口的一组**行为类**
+   -  每个行为类里实现具体的行为
+   -  Quack.java 、Squeak.java同理
