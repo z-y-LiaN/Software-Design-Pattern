@@ -5,10 +5,10 @@ import java.util.Iterator;
 //原煎饼屋菜单的实现
 public class PancakeHouseMenu implements Menu{
     //使用ArrayList来存储所有的菜单项
-    ArrayList menuItems;
+    ArrayList<MenuItem> menuItems;
     //每个菜单项都存储在ArrayList中
     public PancakeHouseMenu() {
-        menuItems = new ArrayList();
+        menuItems = new ArrayList<MenuItem>();
         addItem("K&B's Pancake Breakfast",
                 "Pancakes with scrambled eggs, and toast",
                 true,
