@@ -7,7 +7,6 @@ public class GumballMachine {
     State noQuarterState;
     State hasQuarterState;
     State soldState;
-
     //新增一个状态
     State winnerState;
 

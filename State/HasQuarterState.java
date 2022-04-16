@@ -12,6 +12,7 @@ import java.util.Random;
 public class HasQuarterState implements State{
     // 增加一个随机数实例变量，产生10%的机会赢
     Random randomWinner = new Random(System.currentTimeMillis());
+    
     GumballMachine gumballMachine;
     public HasQuarterState(GumballMachine gumballMachine){
         this.gumballMachine=gumballMachine;

@@ -12,6 +12,7 @@ public abstract class CaffeineBeverage{
     }
     abstract void brew();
     abstract void addCondiments();
+    
     void boilWater(){
         System.out.println("Boiling Water");
     }
